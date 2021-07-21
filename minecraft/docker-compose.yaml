@@ -14,3 +14,5 @@ services:
       - "${HOST_MINECRAFT_PORT}:25565"
     volumes:
       - ./minecraft-data:/data
+      - ./plugins:/data/plugins
+      - ./config:/data/config

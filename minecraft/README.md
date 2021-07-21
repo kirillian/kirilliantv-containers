@@ -17,6 +17,8 @@ git clone https://github.com/kirillian/kirilliantv-containers.git
 Copy the example file:
 `cp .env.example .env`
 
+You will need to update the SEED (or remove the line altogether) and RCON_PASSWORD variables
+
 Configuration documentation can be found here:
 https://github.com/itzg/docker-minecraft-server/blob/master/README.md
 
