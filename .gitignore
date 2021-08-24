@@ -1,3 +1,13 @@
 .env
 
 minecraft/minecraft-data/
+minecraft/plugins/CraftBook/en_US.yml
+minecraft/plugins/CraftBook/persistence.yml
+minecraft/plugins/CraftBook/uuid-mappings.db
+minecraft/plugins/CraftBook/variables.yml
+minecraft/plugins/Geyser-Spigot/locales/
+minecraft/plugins/WorldEdit/.archive-unpack/
+minecraft/plugins/WorldEdit/sessions/
+minecraft/plugins/WorldGuard/cache/
+minecraft/plugins/WorldGuard/worlds/
+minecraft/plugins/bStats/
