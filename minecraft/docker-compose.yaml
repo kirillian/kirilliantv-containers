@@ -12,6 +12,7 @@ services:
     restart: unless-stopped
     ports:
       - "${HOST_MINECRAFT_PORT}:25565"
+      - "${HOST_BEDROCK_PORT}:19132"
     volumes:
       - ./minecraft-data:/data
       - ./plugins:/data/plugins
