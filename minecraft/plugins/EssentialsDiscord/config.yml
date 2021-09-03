@@ -12,10 +12,10 @@
 
 # The token for your bot from the Discord Developers site.
 # Please make sure to use this site to add the bot to your server as it grants special permissions you may not be familiar with: https://essentialsx.net/discord.html
-token: "ODgzNDE3Nzc3Mjk2MjczNDE4.YTJo6w.418OHPvUkfu476JHoExDV1Jgg9c"
+token: ${CONFIG_DISCORD_BOT_TOKEN}
 
 # The ID of your server.
-guild: 680684072569274512
+guild: ${CONFIG_DISCORD_SERVER_ID}
 
 # Defined text channels
 # =====================
@@ -35,8 +35,8 @@ guild: 680684072569274512
 # - staff, which will send kick/mute messages
 # (note: you will need to replace the zeros with the actual channel ID you want to use)
 channels:
-  primary: 789333757232283698
-  staff: 883424283752271912
+  primary: ${CONFIG_DISCORD_PRIMARY_CHANNEL_ID}
+  staff: ${CONFIG_DISCORD_STAFF_CHANNEL_ID}
 
 # Should all players receive Discord messages from the primary channel, regardless of their permissions?
 # This is intended for use for people without permission plugins. If you have a permission plugin, please give your
