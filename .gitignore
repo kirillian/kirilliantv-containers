@@ -11,8 +11,12 @@ minecraft/plugins/WorldEdit/sessions/
 minecraft/plugins/WorldGuard/cache/
 minecraft/plugins/WorldGuard/worlds/
 minecraft/plugins/bStats/
-minecraft/plugins/dynmap/web/tiles/faces/
-minecraft/plugins/dynmap/web/tiles/world/
-minecraft/plugins/dynmap/web/tiles/world_nether/
 minecraft/plugins/LuckPerms/luckperms-h2.mv.db
-
+minecraft/plugins/Essentials/upgrades-done.yml
+minecraft/plugins/Essentials/userdata/
+minecraft/plugins/LuckPerms/luckperms-h2.mv.db
+minecraft/plugins/dynmap/web/
+minecraft/plugins/Essentials/usermap.csv
+minecraft/plugins/dynmap/ids-by-ip.txt
+minecraft/plugins/dynmap/world.pending
+minecraft/plugins/floodgate/key.pem
