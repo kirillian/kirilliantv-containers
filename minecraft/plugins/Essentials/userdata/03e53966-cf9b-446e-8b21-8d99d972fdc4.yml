@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 172.73.218.67
+afk: true
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1630692866952
+  login: 1630692870200
+money: '0'
+last-account-name: Relsk
+logoutlocation:
+  world: 4747c6c9-9c19-41e5-8c05-55ca6d26004b
+  world-name: world
+  x: 246.45484892125904
+  y: 63.0
+  z: 217.27801824311348
+  yaw: -131.10629272460938
+  pitch: 27.74998664855957
