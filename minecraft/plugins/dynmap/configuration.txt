@@ -42,8 +42,8 @@ components:
   
   - class: org.dynmap.InternalClientUpdateComponent
     sendhealth: true
-    sendposition: true
-    allowwebchat: true
+    sendposition: false
+    allowwebchat: false
     webchat-interval: 5
     hidewebchatip: false
     trustclientname: false
@@ -59,7 +59,7 @@ components:
     # Require login for web-to-server chat (requires login-enabled: true)
     webchat-requires-login: false
     # If set to true, users must have dynmap.webchat permission in order to chat
-    webchat-permissions: false
+    webchat-permissions: true
     # Limit length of single chat messages
     chatlengthlimit: 256
   #  # Optional - make players hidden when they are inside/underground/in shadows (#=light level: 0=full shadow,15=sky)
@@ -73,7 +73,7 @@ components:
     # If true, hide players with invisibility potion effects active
     hide-if-invisiblity-potion: true
     # If true, player names are not shown on map, chat, list
-    hidenames: false
+    hidenames: true
   #- class: org.dynmap.JsonFileClientUpdateComponent
   #  writeinterval: 1
   #  sendhealth: true
