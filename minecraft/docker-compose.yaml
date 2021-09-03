@@ -6,12 +6,12 @@ services:
     container_name: 'minecraftserver'
     env_file: .env
     environment:
+      DEBUG: "TRUE"
       EULA: "TRUE"
       REPLACE_ENV_VARIABLES: "TRUE"
       ENV_VARIABLE_PREFIX: "CONFIG_"
       ENABLE_ROLLING_LOGS: "true"
       USE_AIKAR_FLAGS: "true"
-      VERSION: "LATEST"
       TYPE: "PAPER"
       MEMORY: "2G"
       CONFIG_DISCORD_BOT_TOKEN: ${CONFIG_DISCORD_BOT_TOKEN}
