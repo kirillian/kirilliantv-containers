@@ -6,7 +6,6 @@ services:
     container_name: 'minecraftserver'
     env_file: .env
     environment:
-      DEBUG: "TRUE"
       EULA: "TRUE"
       REPLACE_ENV_VARIABLES: "TRUE"
       ENV_VARIABLE_PREFIX: "CONFIG_"
@@ -18,7 +17,6 @@ services:
       CONFIG_DISCORD_SERVER_ID: ${CONFIG_DISCORD_SERVER_ID}
       CONFIG_DISCORD_PRIMARY_CHANNEL_ID: ${CONFIG_DISCORD_PRIMARY_CHANNEL_ID}
       CONFIG_DISCORD_STAFF_CHANNEL_ID: ${CONFIG_DISCORD_STAFF_CHANNEL_ID}
-      CONFIG_MOTD_LINE: ${CONFIG_MOTD_LINE}
     tty: true
     stdin_open: true
     restart: unless-stopped
