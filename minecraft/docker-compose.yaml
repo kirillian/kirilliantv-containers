@@ -9,8 +9,8 @@ services:
       EULA: "TRUE"
       REPLACE_ENV_VARIABLES: "TRUE"
       ENV_VARIABLE_PREFIX: "CONFIG_"
-      ENABLE_ROLLING_LOGS: true
-      USE_AIKAR_FLAGS: true
+      ENABLE_ROLLING_LOGS: "true"
+      USE_AIKAR_FLAGS: "true"
     tty: true
     stdin_open: true
     restart: unless-stopped
